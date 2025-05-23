@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Liitle Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hidden {
+            display: none; }
+        .movie-info-hidden { display: block; }
+        .movie-info-hidden.show { display: block; }
+        .stars{ font-size: 1.5rem; margin-bottom: 0.5rem;}
+    </style>
+  </head>
+<body>
+    <header> 
+        <h1> My Little Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                 <li><a href="#about">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section id=" Home">
+            <h2>Welcome to My Little Website</h2>
+            <p>This is a simple website to showcase my favorite movies and reviews.</p>
+        
+        </section>
+
+        <section id="About Me">
+            <h2>About Me</h2>
+ <p>I'm Lana, UG3 software Engineering student at UKH.</p> 
+        </section>
+
+        <section id="Movies">
+            <h2> Movies</h2>
+            <div class ="movies-scrool-wrapper"> 
+                <button class="scroll-btn left" aria-label="Scroll left"> &#8592;</button>
+            <div id="movies">
+                <article>
+                    <h3> Harry Potter Series</h3>
+                    <img src="images\HP.png" alt="Harry Potter Series">
+                    <div class="movie-info-hidden">
+                        <div class="stars"> ⭐️⭐️⭐️⭐️⭐️ </div>
+                        <h4>Key Characters</h4>
+                        <ul>
+                            <li>Harry Potter</li>
+                            <li>Hermione Granger</li>
+                            <li>Ron Weasley</li>
+                            <li>Albus Dumbledore</li>
+                            <li>Severus Snape</li>
+                        </ul>
+                        </div>
+                </article>
+
+                <article>
+                    <h3>Bambi</h3>
+                    <img src="images\bambi.png" alt="Bambi">
+                    <div class="movie-info-hidden">
+                        <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+                        <h4>Key Characters</h4>
+                        <ul>
+                            <li>Bambi</li>
+                            <li>Thumper</li>
+                            <li>Flower</li>
+                            <li>Faline</li>
+                            </ul>
+                            </div>
+                </article>
+             
+
+                <article> 
+                    <h3>The Aristocats</h3>
+                    <img src="images\cats .png" alt="The Aristocats">
+                    <div class="movie-info-hidden">
+                        <div class="stars"> ⭐️⭐️⭐️ </div>
+                        <h4>Key Characters</h4>
+                        <ul>
+                            <li>Duchess</li>
+                            <li>Thomas O'Malley</li>
+                            <li>Scat Cat</li>
+                            <li>Roquefort</li>
+                            <li>Edgar</li>
+                        </ul>
+                        </div>
+                </article>
+
+<article>
+    <h3> The Devil Wears Prada</h3>
+    <img src="images\the devil .png" alt="The Devil Wears Prada">
+    <div class="movie-info-hidden">
+        <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+        <h4>Key Characters</h4>
+        <ul>
+            <li>Andy Sachs</li>
+            <li>Miranda Priestly</li>
+            <li>Emily Charlton</li>
+            <li>Nigel Kipling</li>
+            <li>Christian Thompson</li>
+        </ul>
+    </div>
+</article>
+
+    <article>
+        <h3> The Pirates of the Caribbean Series</h3>
+        <img src="images\pitites of caribian .png" alt="The Pirates of the Caribbean Series">
+        <div class="movie-info-hidden">
+            <div class="stars"> ⭐️⭐️⭐️⭐️⭐️ </div>
+            <h4>Key Characters</h4>
+            <ul>
+                <li>Jack Sparrow</li>
+                <li>Will Turner</li>
+                <li>Elizabeth Swann</li>
+                <li>Davy Jones</li>
+                <li>Captain Barbossa</li>
+            </ul>
+        </div>
+    </article>
+        <article>
+            <h3> Legally Blonde</h3>
+            <img src="images\L-B.png" alt="Legally Blonde">
+            <div class="movie-info-hidden">
+                <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+                <h4>Key Characters</h4>
+                <ul>
+                    <li>Elle Woods</li>
+                    <li>Emmett Richmond</li>
+                    <li>Paulette Bonafonté</li>
+                    <li>Vivienne Kensington</li>
+                    <li>Warner Huntington III</li>
+                </ul>
+            </div>
+        </article>
+            <article>
+                <h3>Ratatouille </h3>
+                <img src="images\ratt.png" alt="Ratatouille">
+                <div class="movie-info-hidden">
+                    <div class="stars"> ⭐️⭐️⭐️ </div>
+                    <h4>Key Characters</h4>
+                    <ul>
+                        <li>Remy</li>
+                        <li>Alfredo Linguini</li>
+                        <li>Colette Tatou</li>
+                        <li>Anton Ego</li>
+                        <li>Skinner</li>
+                    </ul>
+                </div>
+            </article>
+
+                <article>
+                    <h3> How to lose a guy in 10 days</h3>
+                    <img src="images\10 days .png" alt="How to lose a guy in 10 days">
+                    <div class="movie-info-hidden">
+                        <div class="stars"> ⭐️⭐️⭐️⭐️⭐️ </div>
+                        <h4>Key Characters</h4>
+                        <ul>
+                            <li>Andie Anderson</li>
+                            <li>Benjamin Barry</li>
+                            <li>Judy Green</li>
+                            <li>Michelle</li>
+                            <li>Thayer</li>
+                        </ul>
+                    </div>
+                </article>
+
+                    <article>
+                        <h3>Spirited Away</h3>
+                        <img src="images\S-A.png" alt="Spirited Away">
+                        <div class="movie-info-hidden">
+                            <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+                            <h4>Key Characters</h4>
+                            <ul>
+                                <li>Chihiro Ogino</li>
+                                <li>Haku</li>
+                                <li>Yubaba</li>
+                                <li>Zeniba</li>
+                                <li>No-Face</li>
+                            </ul>
+                        </div>
+                    </article>
+                        <article>
+                            <h3> Madagascar</h3>
+                            <img src="images\MAD.png" alt="Madagascar">
+                            <div class="movie-info -hidden">
+                                <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+                                <h4>Key Characters</h4>
+                                <ul>
+                                    <li>Alex</li>
+                                    <li>Marty</li>
+                                    <li>Melman</li>
+                                    <li>Gloria</li>
+                                    <li>King Julien</li>
+                                </ul>
+                            </div>
+                        </article>
+                            <article> 
+                                <h3>The Emperor's New Groove</h3>
+                                <img src="images\hushtr pasha .png" alt="The Emperor's New Groove">
+                                <div class="movie-info-hidden">
+                                    <div class="stars"> ⭐️⭐️⭐️⭐️ </div>
+                                    <h4>Key Characters</h4>
+                                    <ul>
+                                        <li>Kuzco</li>
+                                        <li>Pacha</li>
+                                        <li>Yzma</li>
+                                        <li>Kronk</li>
+                                     
+                                    </ul>
+                                </div>
+                            </article>
+            </div>
+                  <button class="scroll-btn right" aria-label="Scroll right"> &#8594;</button>
+            </div>
+         <section id="reviews">
+            <h2>All Movie Reviews</h2>
+            <div class="review individual-review">
+                <h4>Harry Potter Series Review</h4>
+                <p>⭐️⭐️⭐️⭐️⭐️ – An immersive magical world, complex characters, and a compelling storyline. The visual effects and character development across all films are truly exceptional.</p>
+            </div>
+            <div class="review individual-review">
+                <h4>Bambi Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – A timeless tale of growth and resilience. Its animation is iconic, and the emotional journey is still impactful today.</p>
+            </div>
+            <div class="review individual-review">
+                <h4>The Aristocats Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – A jazzy, charming adventure in Paris! The songs are catchy, and the characters are endearing, making it a delightful family watch.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>The Devil Wears Prada Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – Iconic fashion moments and sharp performances from Meryl Streep and Anne Hathaway. A witty and surprisingly insightful look into the high-stakes world of fashion journalism.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>Pirates of the Caribbean Series Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – Swashbuckling fun with unforgettable characters and thrilling action. Johnny Depp's Captain Jack Sparrow is a cinematic icon.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>Legally Blonde Review</h4>
+                <p>⭐️⭐️⭐️⭐️⭐️ – An empowering and incredibly funny film. Elle Woods is a brilliant character who proves that intelligence and fashion can coexist beautifully.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>Ratatouille Review</h4>
+                <p>⭐️⭐️⭐️⭐️⭐️ – A culinary masterpiece from Pixar! Gorgeous animation, a heartwarming story, and a powerful message about passion and perseverance.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>How to Lose a Guy in 10 Days Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – A classic rom-com with great chemistry and hilarious antics. Perfect for a lighthearted and entertaining watch.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>Spirited Away Review</h4>
+                <p>⭐️⭐️⭐️⭐️⭐️ – A breathtaking, imaginative masterpiece from Studio Ghibli. A unique and deeply emotional journey into a fantastical world.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>Madagascar Review</h4>
+                <p>⭐️⭐️⭐️⭐️ – A wild and hilarious animated adventure. Full of energy, memorable characters, and laugh-out-loud moments.</p>
+            </div>
+            <div class="review individual-review hidden">
+                <h4>The Emperor's New Groove Review</h4>
+                <p>⭐️⭐️⭐️⭐️⭐️ – An underrated Disney gem! Fast-paced, incredibly witty, and packed with quotable lines. Pure comedic gold.</p>
+            </div>
+            <button id="seeMoreReviewsBtn" class="see-more-btn">See More Reviews</button>
+        </section>
+
+        <section id="Contact">
+            <h2> Contact Me</h2>
+            <p>If you have any questions or want to share your favorite movies, feel free to reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+      <footer> 
+             <p>© 2025 Lana Albarznji</p>
+        </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Movie poster click to reveal/hide stars and characters
+            const movieArticles = document.querySelectorAll('#movies article');
+            movieArticles.forEach(article => {
+                article.addEventListener('click', function() {
+                    const hiddenInfo = this.querySelector('.movie-info-hidden');
+                    hiddenInfo.classList.toggle('show');
+                    // Close other open movie info
+                    movieArticles.forEach(otherArticle => {
+                        const otherHiddenInfo = otherArticle.querySelector('.movie-info-hidden');
+                        if (otherArticle !== this && otherHiddenInfo.classList.contains('show')) {
+                            otherHiddenInfo.classList.remove('show');
+                        }
+                    });
+                });
+            });
+
+            // See More Reviews button
+            const seeMoreBtn = document.getElementById('seeMoreReviewsBtn');
+            const reviewsContainer = document.querySelector('#reviews');
+            const allReviews = reviewsContainer.querySelectorAll('.individual-review');
+            const initialReviewsToShow = 3;
+            for (let i = initialReviewsToShow; i < allReviews.length; i++) {
+                allReviews[i].classList.add('hidden');
+            }
+            seeMoreBtn.addEventListener('click', function() {
+                let anyHidden = false;
+                for (let i = 0; i < allReviews.length; i++) {
+                    if (allReviews[i].classList.contains('hidden')) {
+                        anyHidden = true;
+                        break;
+                    }
+                }
+                if (anyHidden) {
+                    allReviews.forEach(review => {
+                        review.classList.remove('hidden');
+                    });
+                    seeMoreBtn.textContent = 'Show Less Reviews';
+                } else {
+                    for (let i = initialReviewsToShow; i < allReviews.length; i++) {
+                        allReviews[i].classList.add('hidden');
+                    }
+                    seeMoreBtn.textContent = 'See More Reviews';
+                    reviewsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+
+            // Scroll buttons for movies
+            document.querySelector('.scroll-btn.left').addEventListener('click', function() {
+                document.getElementById('movies').scrollBy({ left: -300, behavior: 'smooth' });
+            });
+            document.querySelector('.scroll-btn.right').addEventListener('click', function() {
+                document.getElementById('movies').scrollBy({ left: 300, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
